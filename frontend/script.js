@@ -15,11 +15,11 @@ function loadEvent() {
     const bookPage = books.cards.map((x, index) => `
     <article class="book-container">
         <div class="number">${index + 1}</div>
-		<div class="bookCard">
+        <div class="bookCard">
             <h4>${x.sub}</h4>
             <h2>${x.title}</h2>
             <h5>${x.text}</h5>
-		</div>
+        </div>
 		<button class="details">
             <span class="btn-text">read more</span>
             <span class="material-icons arrow-icon">arrow_forward</span>
